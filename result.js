@@ -10,7 +10,7 @@
 				var resultFunction = function () {
 					var newArgs = Array.prototype.slice.call(arguments);
 
-					return func.apply(null, args.concat(newArgs));
+					return func.apply(undefined, args.concat(newArgs));
 				};
 
 				return resultFunction;
