@@ -102,6 +102,10 @@
 						return array[i];
 					}
 				}
+			},
+			//problem 10
+			lazy: function (callback) {
+				return callback.bind.apply(callback, arguments);
 			}
 		}
 	}());

@@ -32,4 +32,19 @@ currentResult = practise1.fold(practise1.unfold(randomFunction, 0), sumFunction)
 console.log("Problem 8 result: " + sum);
 
 //testing
-console.log(practise1.first(arrayWithEven, isEven));
+var testFunction = function (a, b, c) {
+	var result = 0;
+
+	if (a) {
+		result += a;
+	}
+	if (b) {
+		result += b;
+	}
+	if (c) {
+		result += c;
+	}
+
+	return result;
+}
+console.log(practise1.lazy(testFunction, 1, 2)(7));
