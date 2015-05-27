@@ -107,7 +107,7 @@
 			lazy: function (func) {
 				return func.bind.apply(func, arguments);
 			},
-			//promlem 11
+			//problem 11
 			memoization: function (func) {
 				var result;
 				var lazy = func.bind.apply(func, arguments);

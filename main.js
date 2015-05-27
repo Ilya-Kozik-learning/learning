@@ -30,16 +30,3 @@ var randomFunction = function (stateValue) {
 sum = 0;
 currentResult = practise1.fold(practise1.unfold(randomFunction, 0), sumFunction);
 console.log("Problem 8 result: " + sum);
-
-//testing
-var testFunction = function (a, b, c) {
-	var result = a * 50;
-
-	return result;
-}
-var func1 = practise1.memoization(testFunction, 1);
-var func2 = practise1.memoization(testFunction, 2);
-console.log(func1());
-console.log(func1());
-console.log(func2());
-console.log(func2());
