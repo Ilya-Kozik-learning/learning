@@ -33,18 +33,13 @@ console.log("Problem 8 result: " + sum);
 
 //testing
 var testFunction = function (a, b, c) {
-	var result = 0;
-
-	if (a) {
-		result += a;
-	}
-	if (b) {
-		result += b;
-	}
-	if (c) {
-		result += c;
-	}
+	var result = a * 50;
 
 	return result;
 }
-console.log(practise1.lazy(testFunction, 1, 2)(7));
+var func1 = practise1.memoization(testFunction, 1);
+var func2 = practise1.memoization(testFunction, 2);
+console.log(func1());
+console.log(func1());
+console.log(func2());
+console.log(func2());

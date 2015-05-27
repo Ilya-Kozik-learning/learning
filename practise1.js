@@ -104,8 +104,20 @@
 				}
 			},
 			//problem 10
-			lazy: function (callback) {
-				return callback.bind.apply(callback, arguments);
+			lazy: function (func) {
+				return func.bind.apply(func, arguments);
+			},
+			//promlem 11
+			memoization: function (func) {
+				var result;
+				var lazy = func.bind.apply(func, arguments);
+				return function () {
+					if (!result) {
+						result = lazy();
+					}
+
+					return result;
+				}
 			}
 		}
 	}());
