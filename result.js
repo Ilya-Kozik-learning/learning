@@ -82,6 +82,18 @@
 				}
 
 				return result;
+			},
+			//problem 6
+			filter: function (array, callback) {
+				var result = [];
+
+				for (var i in array) {
+					if (callback(array[i])) {
+						result.push(array[i]);
+					}
+				}
+
+				return result;
 			}
 		}
 	}());
