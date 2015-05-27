@@ -31,4 +31,5 @@ sum = 0;
 currentResult = practise1.fold(practise1.unfold(randomFunction, 0), sumFunction);
 console.log("Problem 8 result: " + sum);
 
-//
+//testing
+console.log(practise1.first(arrayWithEven, isEven));

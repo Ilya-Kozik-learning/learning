@@ -94,6 +94,14 @@
 				}
 
 				return result;
+			},
+			//problem 9
+			first: function (array, callback) {
+				for (var i in array) {
+					if (callback(array[i])) {
+						return array[i];
+					}
+				}
 			}
 		}
 	}());
