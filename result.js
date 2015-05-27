@@ -33,7 +33,8 @@
 		};
 
 		return {
-			F: function () {
+			//problem 1
+			partial: function () {
 				var args = Array.prototype.slice.call(arguments);
 				var func = args.pop();
 
@@ -45,6 +46,7 @@
 
 				return resultFunction;
 			},
+			//problem 2
 			curry: function (func) {
 				return _curry(func);
 			}
