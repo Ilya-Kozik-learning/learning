@@ -1,40 +1,13 @@
-﻿var sum = function () {
-	return "test";
+﻿var test1 = [1, 3, 5, 7, 9];
+var test2 = ["test", 1, 14];
+var test3 = [3, 2, 1];
+test3["strangeIndex"] = 7;
+
+var testingFunction = function (prev, current, index, array) {
+	console.log(prev);
+	console.log(current);
+	console.log(index);
+	console.log(array);
 };
 
-var sum1 = function (a) {
-	return a;
-}
-
-var sum2 = function (a, b) {
-	return a + b;
-}
-
-var sum3 = function (a, b, c) {
-	return a + b + c;
-}
-
-var sum4 = function (a, b, c, d) {
-	return a + b + c + d;
-}
-
-
-var result = practise1.curry(sum)();
-
-alert(result);
-
-result = practise1.curry(sum1)("one parameter test");
-
-alert(result);
-
-result = practise1.curry(sum2)(" 1 ")(" 2 ");
-
-alert(result);
-
-result = practise1.curry(sum3)(" 1 ")(" 2 ")(" 3 ");
-
-alert(result);
-
-result = practise1.curry(sum4)(" 1 ")(" 2 ")(" 3 ")(" 4 ");
-
-alert(result);
+practise1.fold(test3, testingFunction, "opana");

@@ -49,6 +49,16 @@
 			//problem 2
 			curry: function (func) {
 				return _curry(func);
+			},
+			//problem 3
+			fold: function (array, callback, initialValue) {
+				var previousValue = initialValue;
+
+				for (var i in array) {
+					callback(previousValue, array[i], i, array);
+
+					previousValue = array[i];
+				}
 			}
 		}
 	}());
