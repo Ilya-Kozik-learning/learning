@@ -1,10 +1,7 @@
-﻿var testFunction = function (stateValue) {
-	if (stateValue > 3) {
-		return false;
-	}
-	else {
-		return { stateValue: stateValue + 1, element: 7 * stateValue };
-	}
+﻿var testFunction = function (value) {
+	return value * 2;
 }
+var testArray = [1, 2, 3];
 
-console.log(practise1.unfold(testFunction, 1));
+console.log(testArray);
+console.log(practise1.map(testArray, testFunction));

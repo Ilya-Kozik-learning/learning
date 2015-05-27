@@ -72,6 +72,16 @@
 				}
 
 				return result;
+			},
+			//problem 5
+			map: function (array, callback) {
+				var result = [];
+
+				for (var i in array) {
+					result[i] = callback(array[i]);
+				}
+
+				return result;
 			}
 		}
 	}());
