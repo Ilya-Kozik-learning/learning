@@ -59,6 +59,19 @@
 
 					previousValue = array[i];
 				}
+			},
+			//problem 4
+			unfold: function (callback, initialValue) {
+				var result = [];
+				var stateValue = initialValue;
+				var tuple;
+
+				while (tuple = callback(stateValue)) {
+					result.push(tuple.element);
+					stateValue = tuple.stateValue;
+				}
+
+				return result;
 			}
 		}
 	}());
