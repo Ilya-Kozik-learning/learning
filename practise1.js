@@ -36,12 +36,12 @@
 			//problem 1
 			partial: function () {
 				var args = Array.prototype.slice.call(arguments);
-				var func = args.pop();
+				var func = args.shift();
 
 				var resultFunction = function () {
 					var newArgs = Array.prototype.slice.call(arguments);
 
-					return func.apply(undefined, args.concat(newArgs));
+					return func.apply(this, args.concat(newArgs));
 				};
 
 				return resultFunction;
