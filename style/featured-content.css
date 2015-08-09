@@ -1,0 +1,80 @@
+﻿.featured-content {
+	box-sizing: border-box;
+	height: 375px;
+	padding-top: 60px;
+	background-color: #f6f6f6;
+}
+
+.featured-center-container {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+.featured-item {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+}
+
+.feature-first-icon {
+	background-image: url(../images/ic_monitor.png);
+	width: 73px;
+	height: 63px;
+	margin: 2px auto 0px auto;
+}
+
+.feature-second-icon {
+	background-image: url(../images/ic_bulb.png);
+	width: 59px;
+	height: 62px;
+	margin: 3px auto 0px auto;
+}
+
+.feature-third-icon {
+	background-image: url(../images/ic_gears.png);
+	width: 69px;
+	height: 65px;
+	margin: 0px auto;
+}
+
+.feature-fourth-icon {
+	background-image: url(../images/ic_speaker.png);
+	width: 70px;
+	height: 60px;
+	margin: 5px auto 0px auto;
+}
+
+.feature-name {
+	margin-top: 28px;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #637f83;
+	margin-bottom: 20px;
+}
+
+.feature-description {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: #959494;
+	line-height: 19px;
+}
+
+
+.feature-details-button {
+	width: 70px;
+	background-color: #637f83;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	margin: 24px auto 0px auto;
+	line-height: 33px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
