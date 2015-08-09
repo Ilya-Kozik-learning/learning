@@ -1,0 +1,203 @@
+﻿.footer {
+}
+
+.footer-main {
+	box-sizing: border-box;
+	background-color: #637f83;
+	padding-top: 43px;
+	height: 143px;
+}
+
+.footer-slogan {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 34px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	line-height: 34px;
+}
+
+.footer-description {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.footer-contact-us {
+	background-color: #637f83;
+	border-top: 1px solid #597275;
+	height: 153px;
+	padding-top: 40px;
+}
+
+.foouter-contact-us-center {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+.footer-contact-us-item {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.footer-mail-icon {
+	background-image: url(../images/ic_mail.png);
+	width: 40px;
+	height: 32px;
+	float: left;
+}
+
+.footer-mail-subscribe {
+	color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 56px;
+	line-height: 16px;
+}
+
+.footer-mail-details {
+	color: #ffffff;
+	font-size: 13px;
+	padding-left: 56px;
+	padding-top: 5px;
+}
+
+.footer-mail-us {
+	margin-top: 27px;
+}
+
+.footer-email-input {
+	background-color: #597276;
+	border: none;
+	width: 456px;
+	height: 37px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 28px;
+	color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	float: left;
+}
+
+.footer-sign-up {
+	background-color: #597276;
+	border: none;
+	color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 100px;
+	height: 39px;
+	margin-left: 12px;
+}
+
+.footer-contact-us-panel {
+	background-color: #597276;
+	margin-left: 13px;
+	height: 103px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.footer-twitter-icon {
+	background-image: url(../images/ic_twitter_large.png);
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 48px;
+	float: left;
+	margin-top: 27px;
+	margin-left: 30px;
+}
+
+.footer-twitter-details {
+	color: #b5c7c9;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-top: 18px;
+	padding-left: 118px;
+	line-height: 21px;
+}
+
+.footer-mail-to {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.footer-socials {
+	padding-top: 32px;
+	height: 100px;
+}
+
+.footer-socials-center {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+.footer-social-item {
+	box-sizing: border-box;
+	width: 33.333333%;
+	float: left;
+}
+
+.social-logo {
+	background-color: #E4551D;
+	width: 70px;
+	height: 70px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 70px;
+	margin-left: 16px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.social-facebook {
+	background-image: url(../images/ic_facebook_large.png);
+	background-position: center center;
+}
+
+.social-google-plus {
+	background-image: url(../images/ic_google_plus_large.png);
+	background-position: 23px 22px;
+}
+
+.social-linked-in {
+	background-image: url(../images/ic_linked_in_large.png);
+	background-position: 22px 20px;
+}
+
+.social-name {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #637f83;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 105px;
+	padding-top: 15px;
+}
+
+.social-slogan {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #637f83;
+	font-size: 14px;
+	padding-left: 105px;
+}
+
+.footer-designers-details {
+	background-color: #637f83;
+	height: 88px;
+	color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.25px;
+	text-align: center;
+	padding-top: 35px;
+}

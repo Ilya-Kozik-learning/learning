@@ -1,0 +1,78 @@
+﻿.persons {
+	box-sizing: border-box;
+	padding-top: 50px;
+	width: 1170px;
+	margin: 0px auto;
+	height: 372px;
+}
+
+.person-info {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	margin-top: 0px;
+	padding-top: 31px;
+}
+
+	.person-info:nth-child(2n) {
+		padding-left: 15px;
+	}
+
+.portrait {
+	width: 100px;
+	height: 100px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.portrait-first {
+	background-image: url(../images/portrait-1.jpg);
+}
+
+.portrait-second {
+	background-image: url(../images/portrait-2.jpg);
+}
+
+.portrait-third {
+	background-image: url(../images/portrait-3.jpg);
+}
+
+.portrait-fourth {
+	background-image: url(../images/portrait-4.jpg);
+}
+
+.person-details {
+	float: left;
+	box-sizing: border-box;
+	height: 100px;
+	width: 470px;
+	padding: 0px 0px 0px 29px;
+}
+
+.position {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #637f83;
+	line-height: 19px;
+}
+
+.position-description {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: #959494;
+	text-align: left;
+	margin-top: 9px;
+	line-height: 26px;
+}
+
+.person-more-details {
+	display: inline-block;
+	color: #e4551d;
+}
