@@ -1,0 +1,106 @@
+﻿@media (min-width:1020px) {
+	.header-container {
+		width: 1020px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo-container {
+		float: left;
+	}
+
+	.main-logo {
+		float: left;
+		margin-top: 28px;
+		background: url("../../images/logo.png");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 83px;
+		height: 83px;
+	}
+
+	.main-company-name {
+		float: left;
+		display: table-cell;
+		font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+		font-size: 41.05px;
+		font-style: italic;
+		color: #FFFFFF;
+		margin: 51px 0px 0px 4px;
+	}
+
+	.main-craft-by {
+		float: left;
+		display: table-cell;
+		font-family: "Lao UI", sans-serif;
+		font-size: 13.05px;
+		color: #cccccc;
+		margin: 77px 0px 0px 7px;
+	}
+
+	.top-menu {
+		float: right;
+		margin-top: 71px;
+		-webkit-box-shadow: -5px -5px 0px 0px rgba(245,197,6,0.27), -10px -10px 0px 0px rgba(245,197,6,0.27);
+		-moz-box-shadow: -5px -5px 0px 0px rgba(245,197,6,0.27), -10px -10px 0px 0px rgba(245,197,6,0.27);
+		box-shadow: -5px -5px 0px 0px rgba(245,197,6,0.27), -10px -10px 0px 0px rgba(245,197,6,0.27);
+	}
+
+	.top-menu-item {
+		display: table;
+		box-sizing: border-box;
+		float: left;
+		background-color: #f5c506;
+		height: 41px;
+		padding: 0px 20px;
+	}
+
+		.top-menu-item:hover {
+			background-color: #ffcf0f;
+		}
+
+		.top-menu-item a {
+			display: table-cell;
+			vertical-align: middle;
+			text-decoration: none;
+			color: #b99403;
+		}
+
+	.item-icon {
+		display: block;
+		float: left;
+		margin-right: 8px;
+	}
+
+	.icon-man {
+		background: url("../../images/icon-man.png");
+		width: 21px;
+		height: 19px;
+	}
+
+	.icon-spanner {
+		background: url("../../images/icon-spanner.png");
+		width: 19px;
+		height: 19px;
+	}
+
+	.icon-mail {
+		background: url("../../images/icon-mail.png");
+		width: 24px;
+		height: 18px;
+	}
+
+	.item-text {
+		display: block;
+		float: left;
+		font-family: "SegoeUIRegular";
+		font-size: 17.05px;
+	}
+
+	.top-menu-splitter {
+		float: left;
+		width: 1px;
+		background-color: #dcb105;
+		height: 41px;
+	}
+}
