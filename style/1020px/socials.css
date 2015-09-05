@@ -1,74 +1,77 @@
-﻿.socials-background {
-	background-image: url("../../images/socials-background.png");
-	background-repeat: repeat;
-	background-size: auto auto;
-}
+﻿@media (min-width:1020px) {
+	.socials-background {
+		background-image: url("../../images/socials-background.png");
+		background-repeat: repeat;
+		background-size: auto auto;
+	}
 
-.socials-container {
-	margin: 0px auto;
-	width: 1020px;
-	padding: 22px 0px 166px 0px;
-}
+	.socials-container {
+		margin: 0px auto;
+		width: 1020px;
+		padding: 22px 0px 166px 0px;
+	}
 
-.socials-main-text {
-	color: white;
-	font-family: 'PT Sans', sans-serif;
-	font-size: 37.05px;
-	margin-bottom: 31px;
-}
+	.socials-main-text {
+		color: white;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 37.05px;
+		margin-bottom: 31px;
+	}
 
-.socials-plus {
-	position: absolute;
-	bottom: 12px;
-	right: 14px;
-	background-image: url("../../images/plus-symbol.png");
-	width: 11px;
-	height: 11px;
-}
+	.socials-plus {
+		position: absolute;
+		bottom: 12px;
+		right: 14px;
+		background-image: url("../../images/plus-symbol.png");
+		width: 11px;
+		height: 11px;
+	}
 
-.socials-containers {
-	position: relative;
-	box-sizing: border-box;
-	float: left;
-	width: 33.33333333%;
-}
+	.socials-containers {
+		position: relative;
+		box-sizing: border-box;
+		float: left;
+		width: 33.33333333%;
+	}
 
-.socials-text-container {
-	background-color: #ec9e03;
-	padding: 16px 25px 26px;
-}
+	.socials-text-container {
+		background-color: #ec9e03;
+		padding: 16px 25px 26px;
+	}
 
-.socials-text {
-	color: white;
-	font-family: "SegoeUIRegular";
-	font-size: 29.05px;
-	font-weight: 100;
-	text-align: left;
-}
+	.socials-text {
+		color: white;
+		font-family: "SegoeUIRegular";
+		font-size: 29.05px;
+		font-weight: 100;
+		text-align: left;
+	}
 
-.socials-video-container {
-}
+	.socials-video-container {
+	}
 
-.socials-video-icon {
-	width: 315px;
-	height: 232px;
-	background-image: url("../../images/socials-video-image.jpg");
-}
+	.socials-video-icon {
+		position: relative;
+		width: 315px;
+		height: 232px;
+		background-image: url("../../images/socials-video-image.jpg");
+	}
 
-.socials-twitter-container {
-	display: table;
-	background-color: #ec9e03;
-	height: 232px;
-}
+	.socials-twitter-container {
+		display: table;
+		background-color: #ec9e03;
+		height: 232px;
+	}
 
-.socials-twitter-center {
-	display: table-cell;
-	vertical-align: middle;
-}
+	.socials-twitter-center {
+		display: table-cell;
+		vertical-align: middle;
+	}
 
-.socials-twitter {
-	margin: 0px auto;
-	background-image: url("../../images/twitter-large.png");
-	width: 163px;
-	height: 133px;
+	.socials-twitter {
+		margin: 0px auto;
+		background-image: url("../../images/twitter-large.png");
+		width: 163px;
+		height: 133px;
+	}
 }

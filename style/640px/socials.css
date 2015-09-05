@@ -1,1 +1,83 @@
-﻿
+﻿@media (max-width:1019px) {
+	.socials-background {
+	}
+
+	.socials-container {
+		margin: 0px auto;
+		min-width: 640px;
+		width: 100%;
+		padding: 11px 0px 166px 0px;
+	}
+
+	.socials-main-text {
+		display: none;
+	}
+
+	.socials-plus {
+		position: absolute;
+		bottom: 12px;
+		right: 14px;
+		background-image: url("../../images/plus-symbol.png");
+		width: 11px;
+		height: 11px;
+	}
+
+	.socials-containers {
+		position: relative;
+		box-sizing: border-box;
+		float: left;
+		width: 50%;
+	}
+
+	.socials-text-container {
+		padding: 0px 12px 0px 9px;
+	}
+
+	.socials-text {
+		position: relative;
+		box-sizing: border-box;
+		padding: 13px 26px 29px 26px;
+		color: white;
+		background-color: #ec9e03;
+		font-family: "SegoeUIRegular";
+		font-size: 29.05px;
+		font-weight: 100;
+		text-align: left;
+		word-break: break-all;
+		min-height: 232px;
+		margin: 0px 0px 0px auto;
+		width: 299px;
+	}
+
+	.socials-video-container {
+		padding: 0px 9px 0px 0px;
+	}
+
+	.socials-video-icon {
+		position: relative;
+		width: 315px;
+		height: 232px;
+		background-image: url("../../images/socials-video-image.jpg");
+		margin: 0px auto 0px 0px;
+	}
+
+	.socials-twitter-container {
+		display: table;
+		background-color: #f5c507;
+		height: 232px;
+		width: 100%;
+		margin-top: 12px;
+	}
+
+	.socials-twitter-center {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.socials-twitter {
+		margin: 12px auto 0px;
+		background-image: url("../../images/twitter-large.png");
+		width: 163px;
+		height: 133px;
+	}
+}
