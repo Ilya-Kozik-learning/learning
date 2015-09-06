@@ -1,0 +1,57 @@
+﻿@media (max-width:1049px) {
+	.features-background {
+		background-image: url("../../images/features-background-texture.png");
+		background-repeat: repeat;
+		background-size: auto auto;
+		width: 100%;
+	}
+
+	.features-container {
+		margin: 0px auto;
+		min-width: 640px;
+		width: 100%;
+		padding: 28px 0px;
+	}
+
+	.features-column {
+		box-sizing: border-box;
+		width: 33.33333333%;
+		float: left;
+	}
+
+	.features-image {
+		margin: 0px auto;
+		margin-bottom: 14px;
+		display: block;
+	}
+
+	.features-cloud {
+		background-image: url("../../images/cloud-small.png");
+		margin-top: 8px;
+		width: 89px;
+		height: 61px;
+		background-repeat: no-repeat;
+	}
+
+	.features-leaf {
+		background-image: url("../../images/leaf-small.png");
+		width: 67px;
+		height: 69px;
+		background-repeat: no-repeat;
+	}
+
+	.features-paper-plane {
+		background-image: url("../../images/paper-plane-small.png");
+		width: 68px;
+		height: 69px;
+		background-repeat: no-repeat;
+	}
+
+	.features-text {
+		text-align: center;
+		font-family: "SegoeUIRegular";
+		font-weight: lighter;
+		font-size: 23.05px;
+		color: #000000;
+	}
+}

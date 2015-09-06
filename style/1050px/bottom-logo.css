@@ -1,0 +1,36 @@
+﻿@media (min-width:1050px) {
+	.bottom-logo-background {
+		background-color: #4c4c4c;
+		box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25), 0px -5px 5px 0px rgba(0,0,0,0.25);
+	}
+
+	.botttom-container {
+		width: 1020px;
+		margin: 0px auto;
+		text-align: center;
+		padding: 10px 0px;
+	}
+
+	.bottom-logo {
+		display: table;
+		margin: 0px auto;
+	}
+
+	.bottom-logo-image {
+		display: table-cell;
+		float: left;
+		background-image: url("../../images/logo-bottom-large.png");
+		width: 54px;
+		height: 54px;
+	}
+
+	.bottom-text {
+		display: table-cell;
+		vertical-align: middle;
+		font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+		font-size: 29px;
+		font-style: italic;
+		color: #ffffff;
+		padding-left: 10px;
+	}
+}

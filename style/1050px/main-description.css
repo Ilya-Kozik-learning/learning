@@ -1,0 +1,55 @@
+﻿@media (min-width:1050px) {
+	.main-description-container {
+		padding-top: 56px;
+		padding-bottom: 71px;
+		width: 1020px;
+		margin: 0px auto;
+	}
+
+	.main-video {
+		position: relative;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.main-icon {
+		float: left;
+		background: url("../../images/main-description-video.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 549px;
+		height: 327px;
+	}
+
+	.icon-play {
+		background: url("../../images/icon-play.png");
+		width: 67px;
+		height: 67px;
+		border-radius: 67px;
+		border: 0px;
+		padding: 0px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -38.5px;
+		margin-top: -33.5px;
+	}
+
+	.main-slogan {
+		float: right;
+		font-family: 'Asap', sans-serif;
+		font-size: 63px;
+		text-align: center;
+		padding-top: 76px;
+		margin-right: 29px;
+	}
+
+	.main-slogan-first-row {
+		color: #f5c506;
+	}
+
+	.main-slogan-second-row {
+		padding-top: 3px;
+		color: #ffffff;
+	}
+}
