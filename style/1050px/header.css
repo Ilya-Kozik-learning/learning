@@ -1,4 +1,4 @@
-﻿@media (min-width:1020px) {
+﻿@media (min-width:1050px) {
 	.header-container {
 		width: 1020px;
 		margin-left: auto;
@@ -23,7 +23,7 @@
 		float: left;
 		display: table-cell;
 		font-family: "Lucida Sans", "Lucida Grande", sans-serif;
-		font-size: 41.05px;
+		font-size: 41px;
 		font-style: italic;
 		color: #FFFFFF;
 		margin: 51px 0px 0px 4px;
@@ -33,7 +33,7 @@
 		float: left;
 		display: table-cell;
 		font-family: "Lao UI", sans-serif;
-		font-size: 13.05px;
+		font-size: 13px;
 		color: #cccccc;
 		margin: 77px 0px 0px 7px;
 	}
@@ -94,7 +94,7 @@
 		display: block;
 		float: left;
 		font-family: "SegoeUIRegular";
-		font-size: 17.05px;
+		font-size: 17px;
 	}
 
 	.top-menu-splitter {

@@ -1,4 +1,4 @@
-﻿@media (min-width:1020px) {
+﻿@media (min-width:1050px) {
 	.main-description-container {
 		padding-top: 56px;
 		padding-bottom: 71px;
@@ -38,7 +38,7 @@
 	.main-slogan {
 		float: right;
 		font-family: 'Asap', sans-serif;
-		font-size: 63.05px;
+		font-size: 63px;
 		text-align: center;
 		padding-top: 76px;
 		margin-right: 29px;

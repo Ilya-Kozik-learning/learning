@@ -1,4 +1,4 @@
-﻿@media (min-width:1020px) {
+﻿@media (min-width:1050px) {
 	.features-background {
 		background-image: url("../../images/features-background-texture.png");
 		background-repeat: repeat;
@@ -51,7 +51,7 @@
 		text-align: center;
 		font-family: "SegoeUIRegular";
 		font-weight: lighter;
-		font-size: 27.05px;
+		font-size: 27px;
 		color: #000000;
 	}
 }

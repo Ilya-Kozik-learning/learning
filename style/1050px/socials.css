@@ -1,4 +1,4 @@
-﻿@media (min-width:1020px) {
+﻿@media (min-width:1050px) {
 	.socials-background {
 		background-image: url("../../images/socials-background.png");
 		background-repeat: repeat;
@@ -14,7 +14,7 @@
 	.socials-main-text {
 		color: white;
 		font-family: 'PT Sans', sans-serif;
-		font-size: 37.05px;
+		font-size: 37px;
 		margin-bottom: 31px;
 	}
 
@@ -42,7 +42,7 @@
 	.socials-text {
 		color: white;
 		font-family: "SegoeUIRegular";
-		font-size: 29.05px;
+		font-size: 29px;
 		font-weight: 100;
 		text-align: left;
 	}
