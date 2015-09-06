@@ -1,2 +1,35 @@
-﻿body {
+﻿@media (max-width:1049px) {
+	.bottom-logo-background {
+		background-color: #4c4c4c;
+	}
+
+	.botttom-container {
+		width: 640px;
+		margin: 0px auto;
+		text-align: center;
+		padding: 4px 0px;
+	}
+
+	.bottom-logo {
+		display: table;
+		margin: 0px auto;
+	}
+
+	.bottom-logo-image {
+		display: table-cell;
+		float: left;
+		background-image: url("../../images/logo-bottom-small.png");
+		width: 31px;
+		height: 31px;
+	}
+
+	.bottom-text {
+		display: table-cell;
+		vertical-align: middle;
+		font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+		font-size: 17px;
+		font-style: italic;
+		color: #ffffff;
+		padding-left: 10px;
+	}
 }
